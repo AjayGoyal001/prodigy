@@ -1,0 +1,83 @@
+
+body{
+    background-color: black;
+    text-align: center;
+
+}
+
+h1{
+    font-size: 45px;
+    color: red;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 900;
+}
+
+.container{
+    height: 80vm;
+    width: 90vm;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.game
+{
+    height: 70vmin;
+    width: 80vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 23vmin;
+    width: 23vmin;
+    background-color: transparent;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.4vmin;
+    font-size: 15vmin;
+    color: hsl(0, 0%, 100%);
+    border: 2px solid white;
+}
+
+.reset-btn{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 20px;
+    gap: 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: red;
+    font-weight: bolder;
+}
+
+.new-btn
+{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 20px;
+    gap: 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: red;
+    font-weight: bolder;
+}
+
+.win{
+    color: red;
+    font-size: 5vmin;
+    margin: 0;
+}
+
+.hide{
+    display: none;
+}
